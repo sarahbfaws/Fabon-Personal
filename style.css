@@ -323,7 +323,13 @@ button {
   align-items: center;
 }
 
+.grid-item a {
+  color: var(--lightOne);
+}
 
+.grid-item a:hover {
+  color: var(--mainColor);
+}
 
 .showcase-area .btn {
   box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.05);
@@ -389,6 +395,15 @@ button {
 
 .projects {
   background-color: var(--backgroundColor);
+}
+
+.project-description {
+  color: var(--darkOne);
+  font-size: 1.1rem;
+  margin: auto;
+  margin-top: 5rem;
+  max-width: 600px;
+  line-height: 2.3;
 }
 
 .skill-showcase {
@@ -765,6 +780,13 @@ button {
 .grid-item {
   font-size: 0.95rem;
 }
+
+.project-description {
+  margin-top: 2rem;
+}
+
+
+
   .big-title {
     font-size: 1.1rem;
   }
