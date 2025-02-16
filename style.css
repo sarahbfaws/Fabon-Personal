@@ -759,9 +759,12 @@ button {
 
  .text-alt {
   text-align: center;
+  font-size: 0.95rem;
  }
 
-
+.grid-item {
+  font-size: 0.95rem;
+}
   .big-title {
     font-size: 1.1rem;
   }
