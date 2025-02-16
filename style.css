@@ -329,7 +329,7 @@ button {
 }
 
 .grid-item a:hover {
-  color: var(--mainColor);
+  color: var(--lightTwo);
 }
 
 .showcase-area .btn {
@@ -766,9 +766,7 @@ button {
   }
 
 .third-item {
-  margin: 0 auto !important;
-  padding: 10px 0;
-  width: 100%;
+  display: none;
 }
 
   .skill-showcase {
@@ -781,9 +779,9 @@ button {
     margin: 0rem;
   }
 
-  .first-item {
+  /* .first-item {
     display: none;
-  }
+  } */
 
   .second-item {
     display: none;
