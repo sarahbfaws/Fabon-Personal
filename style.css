@@ -731,6 +731,7 @@ button {
 
  .browser-container {
   height: auto;
+  margin-bottom: 1rem;
  }
 
  .project-area {
