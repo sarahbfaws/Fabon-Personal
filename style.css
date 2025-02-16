@@ -315,6 +315,7 @@ button {
   grid-template-columns: auto 1fr;
   grid-gap: 10px;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .grid-item {
@@ -380,6 +381,7 @@ button {
   height: 800px;
   width: auto;
   margin: 2rem;
+  margin-bottom: 4rem;
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   /* z-index: 29; */
@@ -391,6 +393,7 @@ button {
   position: relative;
   /* z-index: 30; */
   height: 800px;
+  margin-bottom: 3rem;
 }
 
 .projects {
@@ -401,16 +404,16 @@ button {
   color: var(--darkOne);
   font-size: 1.1rem;
   margin: auto;
-  margin-top: 5rem;
-  max-width: 600px;
+  margin-top: 2rem;
+  max-width: 800px;
   line-height: 2.3;
 }
 
 .skill-showcase {
   width: 80%;
-  padding: 10rem 0 8.5rem;
+  /* padding: 10rem 0 8.5rem; */
   background-color: var(--backgroundColor);
-  padding: 5.5rem 4.5rem;
+  padding: 5.5rem 4.5rem 2rem 4.5rem;
   display: grid;
   margin: 0 auto;
 }
