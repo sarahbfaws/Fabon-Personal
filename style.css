@@ -646,6 +646,11 @@ button {
     display: flex;
   }
 
+#hero-container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
   .links {
     position: fixed;
     top: 0;
