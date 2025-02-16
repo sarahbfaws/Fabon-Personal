@@ -418,12 +418,28 @@ button {
   margin: 0 auto;
 }
 
+#skill-showcase-image {
+  padding: 0rem;
+}
 
 
 .skill-showcase h1 {
   text-align: center;
 }
 
+.skill-showcase-alt {
+  background-color: var(--mainColor);
+  width: 80%;
+  /* padding: 10rem 0 8.5rem; */
+  padding: 5.5rem 4.5rem 2rem 4.5rem;
+  display: grid;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.skill-showcase-alt h1 {
+  text-align: center;
+}
 
 .git-btn {
   display: inline-block;
@@ -506,6 +522,8 @@ button {
   padding: 7rem 0;
   overflow: hidden;
 }
+
+
 .contact {
   width: 100%;
   padding: 5rem 0 5rem;
@@ -703,7 +721,7 @@ button {
   }
 
   .showcase-area {
-    padding: 2.5rem 0;
+    padding: 2rem 0;
     max-width: 700px;
     margin: 0 auto;
     overflow: hidden;
@@ -726,12 +744,49 @@ button {
     display: block;
     grid-template-columns: 2fr;
     justify-content: center;
+    margin: 0 auto;
+    padding: 0;
     
   }
 
+  /* .showcase-area {
+    padding: 2.5rem 0;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 100vh;
+    
+  } */
+
+ #showcase-images {
+    margin: 0rem auto; 
+    padding: 0rem;
+    overflow: hidden;
+    min-height: auto ; 
+  }
+
+.third-item {
+  margin: 0 auto !important;
+  padding: 10px 0;
+  width: 100%;
+}
 
   .skill-showcase {
     width: 100%;
+    margin: 0rem;
+  }
+
+  .skill-showcase-alt {
+    width: 100%;
+    margin: 0rem;
+  }
+
+  .first-item {
+    display: none;
+  }
+
+  .second-item {
+    display: none;
   }
 
  .browser-container {
@@ -755,11 +810,11 @@ button {
   }
 
   .about-image {
-    position: static;  /* or relative if needed */
+    position: static;  
     left: auto;
     top: auto;
-    transform: none;  /* Remove any transforms that were shifting the image */
-    margin-bottom: 1rem; /* add spacing if desired */
+    transform: none;  
+    margin-bottom: 1rem; 
   }
 
 
@@ -768,14 +823,14 @@ button {
   }
 
   .second-image {
-    display: block;  /* Ensure the image is displayed */
-    margin: 0 auto;  /* Center horizontally */
+    display: block;  
+    margin: 0 auto;  
     padding-bottom: 50px;
-    width: 80%;  /* Adjust the width as needed */
-    max-width: 100%;  /* Ensure it doesn’t overflow */
-    position: relative; /* Reset any previous absolute positioning */
-    left: 0;  /* Remove any left positioning */
-    top: 0;   /* Remove any top positioning */
+    width: 80%;  
+    max-width: 100%;  
+    position: relative;
+    left: 0;  
+    top: 0;   
   }
   .third-image {
     display: none;
