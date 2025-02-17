@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggle_btn = document.querySelector(".toggle-btn");
     const big_wrapper = document.querySelector(".big-wrapper");
     const hamburger_menu = document.querySelector(".hamburger-menu");
+    const nav_links = document.querySelectorAll(".links a");
 
     // Ensure the elements exist before adding event listeners
     if (toggle_btn) {
@@ -16,7 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
             big_wrapper.classList.toggle("active");
         });
     }
-
+    if (nav_links) {
+        nav_links.forEach(link => {
+            link.addEventListener("click", () => {
+                big_wrapper.classList.remove("active");
+            });
+        });
+    }
     
 
     // Initialize Typed.js
