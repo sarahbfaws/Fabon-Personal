@@ -441,6 +441,26 @@ button {
   text-align: center;
 }
 
+.page-not-found {
+  width: 80%;
+  /* padding: 10rem 0 8.5rem; */
+  background-color: var(--backgroundColor);
+  padding: 5.5rem 4.5rem 2rem 4.5rem;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+
+}
+
+.not-found-text {
+  color: var(--lightOne);
+  font-size: 1.1rem;
+  margin: 1.9rem 0 2.5rem;
+  width: 100%;
+  line-height: 2.3;
+
+}
+
 .git-btn {
   display: inline-block;
   border: none;
