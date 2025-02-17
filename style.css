@@ -890,12 +890,15 @@ button {
 
   .contact-box {
     grid-template-columns: 1fr;
-    padding: 3.2rem 2.7rem;
+    padding: 1.5rem 1.5rem;
   }
 
   .contact-info {
-    padding-right: 0;
+    padding-right: 0rem;
+    padding-left: 0rem;
     padding-bottom: 0.5rem;
+    font-size: smaller;
+    text-align: center;
   }
 
   .contact-form {
