@@ -919,11 +919,19 @@ button {
     padding-bottom: 0.5rem;
     font-size: smaller;
     text-align: center;
+    max-width: 100%;
+  }
+
+  .form {
+    max-width: 100%;
   }
 
   .contact-form {
     padding-left: 0;
     padding-top: 0.5rem;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .information-wrap {
@@ -964,4 +972,72 @@ button {
   .showcase-area .btn {
     font-size: 0.8rem;
   }
+}
+
+.information {
+  display: none;
+}
+
+@media screen and (max-width: 360px) {
+  .contact-box {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .contact-info {
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .information {
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    padding: 1rem;
+    display: none;
+
+  }
+
+  .info-text {
+    font-size: 15px;
+  }
+
+  .contact-icon {
+    width: 10px;
+  }
+
+  .contact-form {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .form {
+    margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.8rem; */
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .contact-input {
+    width: 100%;
+    max-width: 200px;
+    padding: 0.8rem;
+    text-align: center;
+  margin: 10px auto;
+  }
+
+  .contact-input.textarea {
+    min-height: 120px;
+    text-align: center;
+  }
+
 }
