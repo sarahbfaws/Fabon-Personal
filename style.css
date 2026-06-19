@@ -730,6 +730,42 @@ button {
   display: none;
 }
 
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.project-card {
+  display: block;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  color: var(--darkOne);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.project-card h2 {
+  margin: 1rem 0 0.5rem;
+}
+
+.project-card p {
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+
 @keyframes appear {
   0% {
     clip-path: circle(30% at -25% -25%);
@@ -841,6 +877,10 @@ button {
     padding: 0rem;
     overflow: hidden;
     min-height: auto;
+  }
+
+  .project-cards {
+    grid-template-columns: 1fr;
   }
 
   .desktop1 {
